@@ -1,0 +1,19 @@
+PREFIX mov: <https://ekgf.org/ontology/movies/>
+PREFIX movdata: <https://ekgf.org/data/movies/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?movuri 
+    rdfs:label ?Movie ;
+    mov:hasBudget ?ProductionBudgetInt ;     
+    mov:hasRevenue ?DomesticGrossInt ;
+    mov:hasReleaseDate ?year.     
+}
+WHERE {
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/movie_staged", ?WebScraperOrder)) AS ?movuri)
+  BIND (xsd:integer(?ProductionBudget) AS ?ProductionBudgetInt)
+  BIND (xsd:integer(?DomesticGross) AS ?DomesticGrossInt)
+  BIND (IF(CONTAINS(?ReleaseDate, ", "),xsd:integer(STRAFTER(?ReleaseDate, ", ")), xsd:integer(?ReleaseDate)) AS ?year)
+} 
+

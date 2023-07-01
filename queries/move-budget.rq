@@ -1,0 +1,26 @@
+PREFIX mov: <https://ekgf.org/ontology/movies/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+# Move budget to IMDB item matching on title and date and non-obscure
+DELETE {
+  ?s mov:hasBudget ?b ;
+    mov:hasRevenue ?r ;
+    mov:hasReleaseDate ?bdate ;
+}
+INSERT {
+  ?m mov:hasBudget ?b ;
+    mov:hasRevenue ?r
+}
+WHERE { 
+	?s mov:hasBudget ?b ;
+      rdfs:label ?bl ;
+      mov:hasReleaseDate ?bdate ;
+      OPTIONAL {?s mov:hasRevenue ?r }.
+    FILTER NOT EXISTS {?s a mov:Movie} # only the staging 
+    ?m rdfs:label ?bl ;
+       mov:hasReleaseDate ?bdate ;
+       mov:hasIMDBraters ?raters ;
+       a mov:Movie .    
+    FILTER (?raters > 4000 ) # threshold to exclude obscure movies
+   
+}
+    

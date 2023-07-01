@@ -1,0 +1,81 @@
+Term,Definition,Ontology-Vocabulary mapping,Vocabulary (for Level 2),Examples,Status (person's initial or agreed),Source(s),Notes
+studio,"makes money from movies, larger entity than production company, owns props, sound stages etc, general promotion and branding",Studio,insiders,,Agreed 8Jun2022,EKGF DP,
+proposal,"complete package including outline, budget",Proposal,insiders,,Agreed 8Jun2022,EKGF DP,
+greenlight,approve and fund a proposal,Greenlit,insiders,,Agreed 8Jun2022,Agreed 22Jun2022,
+rejected,a proposal that has been rejected by a studio,Rejected,insiders,,Agreed 22Jun2022,Agreed 22Jun2022,
+under review,a proposal that has been presented to a studio which has not yet reached a decision,UnderReview,insiders,,Agreed 22Jun2022,Agreed 22Jun2022,
+annual budget,money available to spend on making movies,Budget,investors,,Agreed 8Jun2022,EKGF DP,
+script outline,"story broken down to acts etc, in bullet point form, aimed at writers",Treatment,insiders,,Agreed 8Jun2022,EKGF DP,
+treatment,"short outline of story idea, in prose form, aimed at producers; includes plot",Treatment,investors,,Agreed 8Jun2022,EKGF DP,
+pitch,a concise verbal presentation of an idea for a film generally made by a screenwriter or film director to a film producer or studio executive in the hope of attracting development finance to pay for the writing of a screenplay.,Pitch,investors,,Agreed 29Jun2022,Wikipedia,
+director,person managing the creative aspects of production,Director,general,,Agreed 8Jun2022,EKGF DP,
+actor,person whose profession is acting in movies or on a stage,Actor,general,,Agreed 8Jun2022,EKGF DP,
+supporting lead actor,A smaller part than the lead that still plays an intricate part of the story. Supporting: A character that simply pushes the story forward for the sake of the lead or supporting lead characters. The equivalent of a television co-star.,,,,,,
+screen writer,"writes script, possibly adapting an original work",ScreenWriter,general,,Agreed 8Jun2022,EKGF DP,
+above the line staff,"the most prominent/key people. Whether someone is above or below the line may depend on their creative input, personal stature and pay grade
+",AboveTheLineStaff,insiders,,Agreed 8Jun2022,EKGF DP,
+below the line staff,majority of the crew and others who are below the line and hence less interesting from greenlighting purpose,BelowTheLineStaff,insiders,,Agreed 8Jun2022,EKGF DP,
+principal cast,Usually actors who have a speaking role or have a prominent acting role even if not speaking.,LeadActor,general,,Agreed 8Jun2022,EKGF DP,
+cameo,"A cameo is a small role performed by a well-known actor or director, often limited to a single scene, with the casting done specifically because of who they are, not because of their acting talents. Examples of cameos are Alfred Hitchcock's appearances in his films and Stan Lee's brief appearances in Marvel films. Note that small parts played by actors before they became famous are not cameos. Rather, they are either supporting roles or roles as an ""extra.""",SupportingLeadActor,insiders,,Agreed 8Jun2022,https://www.the-numbers.com/glossary,
+location,"A location is the places or properties used to film. A location can either be exterior or interior, and it can take place in a real location or on a studio lot. Interiors are abbreviated as “Int.” while exteriors are abbreviated as “Ext.”",Location,general,,Agreed 8Jun2022,https://www.studiobinder.com/blog/movie-film-terms/#l,
+setting,where the action is purported to take place (not necessarily the same as the location it's filmed at),Setting,general,,,,
+extras,"people with non-speaking roles (also called ""atmosphere"" and ""background talent"")",BelowTheLineStaff,insiders,people in crowd scenes,Agreed 8Jun2022,EKGF DP,
+union production,"A production that opts to work with people represented by unions such as SAG-AFTRA, DGA, PGA, Teamsters, etc.",isUnionProduction,insiders,,Agreed 8Jun2022,EKGF DP,
+equipment,Implements needed in film production. ,BudgetItem,insiders,"lights, camera, monitors, cables etc",Agreed 8Jun2022,EKGF DP,
+sets,Artificially constructed scenery,BudgetItem,general,,Agreed 8Jun2022,EKGF DP https://en.wikipedia.org/wiki/Set_(film_and_TV_scenery),
+special effects,"Special Effects is a broad term for fantastical audio and visual illusions that could not have been filmed by normal means. Special effects include in-camera effects, miniatures, CGI, rear-camera projections, and stop motion animation. Visual effects are a subcategory of special effects.",BudgetItem,general,,Agreed 8Jun2022,https://www.studiobinder.com/blog/movie-film-terms/#s,
+post production,the editing of audio and visual materials to create a film,BudgetItem,insiders,,Agreed 8Jun2022,EKGF DP,
+soundtrack,a selection of recorded songs that accompany a film,BudgetItem,general,,Agreed 8Jun2022,EKGF DP,
+score,original music written and performed specifically to accompany a film,BudgetItem,general,,Agreed 8Jun2022,EKGF DP,
+ASCAP,"The American Society of Composers, Authors, and Publishers is an American not-for-profit performance-rights organization",LegalEntity,general,n/a,Agreed 8Jun2022,EKGF DP,
+copyright material,Material (like movies) whose use is protected under copyright law (Federal Copyright Act). Copyrighted materials like movies can be used publicly only if properly licensed.,BudgetItem,general,,Agreed 8Jun2022,https://www.swank.com/copyright-homepage/,
+marketing,The strategies that film makers use to promote and bring audiences to their film,BudgetItem,insiders,,Agreed 8Jun2022,https://www.thefilmfund.co/film-marketing-how-to-gain-exposure-for-your-film/ ,
+distribution company,Responsible for the marketing and distribution of films,Company,general,,Agreed 8Jun2022,https://topsheet.io/blog/complete-guide-to-film-distribution,
+insurance,"For a specified amount of money, film insurance, or film production insurance, shields your production company and/or individual film project from any potential liabilities that may occur during production",BudgetItem,insiders,,Agreed 8Jun2022,https://www.thefilmfund.co/what-you-need-to-know-about-film-insurance/#.YoZb-ejMLIU ,
+international distribution,Manages releasing films to a worldwide audience,Company,insiders,,Agreed 8Jun2022,EKGF DP,
+personal pay,"personal remuneration, may be by person (based on experience) or position, may be hourly, weekly or (for stars) for the whole movie; may be subject to union rules",hasPay,insiders,,Agreed 22Jun2022,,
+pay scale,pay range for a specific position,hasPay,insiders,,Agreed 22Jun2022,,
+personal stature,"a person's reputation may be related to social media clout, star meter (IMDB); reflects popularity, fame, critical reception; affects ability to get funding and bring in other people",hasStature,general,,Agreed 22Jun2022,EKGF DP,Synonym of clout (applies to social media)
+cinematographer,"A cinematographer or director of photography (sometimes shortened to DP or DOP) is the person responsible for the photographing or recording of a film, television production, music video or other live action piece.",AboveTheLineStaff,general,,Agreed 8Jun2022,https://en.wikipedia.org/wiki/Cinematographer ,Synonym of DP
+DP,Director of Photography,AboveTheLineStaff,insider,,Agreed 8Jun2022,EKGF DP,
+series,Set of movies/sequels ,Series,general,"Star Wars, MCU",Agreed 8Jun2022,EKGF DP,synonym for franchise
+runtime,Time between the start of the movie to the end of the credits.,hasRunTime,general,,Agreed 8Jun2022,EKGF DP,
+trend,"prevailing tendency for movies reflecting what the industry/society is interested in incl news, movies made/released (themes), popular people; reflected in facets of successful movies made/released recently",Trend,general,,Agreed 22Jun2022,EKGF DP,
+sentiment,How positive or negative the feeling is towards a movie is. Often from analysis of social media.,hasSentiment,insider,,Agreed 8Jun2022,EKGF DP,
+production method,Techniques for how the movie is shot,hasProductionMethod,insider,"Live action, animated, motion capture, pixelation, mixed",Agreed 22Jun2022,EKGF DP,
+genre,A film genre is a stylistic or thematic category,Genre,general,,Agreed 8Jun2022,EKGF DP,
+sub-genre,a genre that is part of a larger genre,hasSubgenre,general,,Agreed 8Jun2022,EKGF DP,
+plot,"What happens in a film, i.e. the narrative sequence of events that determine the outcome of the characters. The events that happen, in sequence.",Plot (AA),general,,Agreed 8Jun2022,EKGF DP,Synonym of Story
+movie production budget,Money required to make a movie,Budget (AA),investors,,Agreed 8Jun2022,EKGF DP,
+target demographic,"could be characterized by a number of factors e.g. ""videogame players"" could be characterized by age, gender, location etc. Ideally quantifiable",Demographic (AA),insiders,,Agreed 8Jun2022,EKGF DP,
+target age,factor in demographic,AgeRange and hasTargetDemographic,insiders,,Agreed 8Jun2022,EKGF DP,
+rating,the film rating system provides parents and others with the information needed to determine if a film is appropriate for their children,hasRating,general,,Agreed 8Jun2022,EKGF DP,
+awards,"A cinematic award which can be awarded in several categories; could include recognition e.g. being nominated, on Black List",Award (AA),general,,Agreed 8Jun2022,https://en.wikipedia.org/wiki/Film_award,
+geography,countries or regions where the movie is distributed,Region (AA),insiders,,Agreed 8Jun2022,EKGF DP,
+market,The set of all individuals that spend money on consuming movies. May be segmented by geography etc.,Demographic,general,,Agreed 22Jun2022,https://www.monash.edu/business/marketing/marketing-dictionary/i/industrial-market ,
+film market,"Trade in movie rights between producers, distributors, studios; often takes place at film festivals; may involve bidding",leave unmapped for now - do we need this term?,insiders,,Agreed 22Jun2022,,
+promotion,"Increasing movie attendance and sales via marketing, PR, trailers, advertising, social media, merchandising, franchising",BudgetItem (AA),insiders,,Agreed 15Jun,https://en.wikipedia.org/wiki/Film_promotion,
+release venues,"number/type of screen including theaters, streaming; includes region, number of screens",Release,insiders,,Agreed 15Jun,EKGF DP,
+box office,"gross ticket sales at theaters, component of revenue",hasBoxOffice,general,,Agreed 15Jun,EKGF DP,
+revenue,"Revenue is the money generated from normal business operations, calculated as the average sales price times the number of units sold",not needed,general,,Agreed 15Jun,https://www.investopedia.com/terms/r/revenue.asp ,
+revenue,"On top of box office revenue, total revenue can include things like DVD sales, TV and digital/streaming distribution rights, and other post-theatrical revenue, much of which doesn't exist in markets like China.",hasRevenue,insider,,Agreed 15Jun,https://entertainment.howstuffworks.com/movie-box-office.htm,
+inflation,"General increase in prices over time, used to adjust revenue etc to today's equivalent",Inflation,general,,Agreed 15Jun,EKGF DP," general financial term ""inflation"""
+licensing,"purchasing the rights to include trademarks and copyrighted content in a movie e.g. songs, images, TV shows in background",LicenseAgreement,general,,Agreed 15Jun,EKGF DP,
+product placement,payment by product promoters to feature their product or company in a movie,ProductPlacement,,,Agreed 15Jun,,
+soundstage,"Building, or room with large doors and high ceilings, used for the production of theatrical film-making, usually located on a secured movie studio property",SoundStage,general,,Agreed 15Jun,EKGF DP,
+original author,writer of a work (e.g. book) adapted for a movie,hasAuthor,general,,Agreed 15Jun,EKGF DP,
+screenplay,"The screenplay contains all of the dialogue, character movements, and essential actions.",Screenplay,,,Agreed 15Jun,,synonym of script
+original screenplay,A screenplay that's a new script (not adaptation) for a movie production written by a screenwriter.,OriginalScreenplay that is not based on anything else,general,,Agreed 15Jun,https://www.studiobinder.com/blog/movie-film-terms/#s,subclass of screenplay
+streaming,Media content delivered on demand to devices via the internet and played back under the control of a subscription/app.,instance of DeliveryMethod,general,,Agreed 15Jun,EKGF DP,
+adapted screenplay,"A screenplay adapted from another work e.g. movie remake, sequels, book, short story, theme park ride ",AdaptedScreenplay,,,Agreed 15Jun,,subclass of screenplay
+theater,a building that contains auditoria for viewing movies,Theater (AA),insiders,,Agreed 15Jun,??,synonym of cinema
+production company,"a business that creates movies, may be subsidiaries of a studio, can be separate legal entities, may also act as agents for artists",Company (AA),general,,Agreed 15Jun,https://en.wikipedia.org/wiki/Production_company,"synonyms production house, production studio, production team"
+distribution company,The distribution company determines how many copies (prints) of the film to make. The distribution company shows the movie (screening) to prospective buyers representing the theaters. The buyers negotiate with the distribution company on which movies they wish to lease and the terms of the lease agreement.,Company (AA),general,,Agreed 15Jun,https://topsheet.io/blog/complete-guide-to-film-distribution,
+film festival,"an organized, extended presentation of films in one or more cinemas or screening venues, may be virtual",FilmFestival,general,,Agreed 15Jun,EKGF DP,
+distributor,   [SYNONYM of Distribution Company on line 27],Company (AA),,,Agreed 15Jun,,synonym of distribution company
+franchise,   [SYNONYM of Series on line 34 - see Notes in Col H],Series (AA),"insiders, investors",,Agreed 15Jun,,"synonym for series; CE NOTE: if this term, Franchise, is a synonym for Series as indicated here, shouldn't the Vocabulary value in Col D for Franchise match the Vocabulary value in Col D for Series?"
+story,"A story is the [description of] events that appear in a film and what we can infer from these events; aka narrative or plot
+",Plot (AA),general,,Agreed 15Jun,https://www.elginisd.net/cms/lib6/TX01917830/Centricity/Domain/560/Film%20Terms%20Glossary.pdf,synonym of plot
+region,"A geographical area, including countries, states, aggregations (such as EMEA)",Region (AA),,,Agreed 15Jun,EKGF DP,
+theatrical release,"movie released in theaters (as opposed to streaming), provides eligibility for certain awards, helps marketing",Release,insiders,,Agreed 15Jun,2021 Theme Report p57,"CE Note: I found this definition: ""Theatrical is a slang term referring to a feature-length motion picture""  at this source: https://www.elginisd.net/cms/lib6/TX01917830/Centricity/Domain/560/Film%20Terms%20Glossary.pdf"
+sequel,"follow up to a movie, possibly in a series",Movie (AA),general,,Agreed 15Jun,,

@@ -1,0 +1,14 @@
+PREFIX movdata: <https://ekgf.org/data/movies/>
+PREFIX mov: <https://ekgf.org/ontology/movies/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select * 
+# from <https://ekgf.org/ontology/movies/data/proposals>
+where { 
+	GRAPH <https://ekgf.org/ontology/movies/data/proposals> {?prop a mov:Proposal ;
+    mov:proposesToMake ?m.
+        ?m ^mov:participatesIn/mov:filledBy ?person .}
+    BIND(STRAFTER(STR(?person), "_") AS ?imdbName)
+    ?imdbPerson a mov:Person; 
+        rdfs:label ?imdbLabel .
+            FILTER ( REPLACE(?imdbLabel, " ", "") = ?imdbName)
+} limit 100 

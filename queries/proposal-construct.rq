@@ -1,0 +1,49 @@
+PREFIX mov: <https://ekgf.org/ontology/movies/>
+PREFIX movdata: <https://ekgf.org/data/movies/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?rol1uri a mov:TeamRole ;
+    rdfs:label ?categoryActor ;
+    mov:participatesIn ?movuri ;
+    mov:filledBy ?person1uri ;
+    mov:hasPosition ?aposuri .
+  ?rol3uri a mov:TeamRole ;
+    rdfs:label ?categoryActor ;
+    mov:participatesIn ?movuri ;
+    mov:filledBy ?person3uri ;
+    mov:hasPosition ?aposuri .
+  ?rol2uri a mov:TeamRole ;
+    rdfs:label ?categoryDirector ;
+    mov:participatesIn ?movuri ;
+    mov:filledBy ?person2uri ;
+    mov:hasPosition ?dposuri .
+  ?movuri a mov:Movie ;
+    rdfs:label ?Name ;
+    mov:hasBudget ?fullBudget ;
+    mov:hasGenre ?genuri .
+  ?propuri a mov:Proposal ;
+    mov:proposesToMake ?movuri ;
+  
+}
+WHERE {
+  BIND ( REPLACE(?LeadActor1, " ", "") AS ?procActor)
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/propperson_", ?procActor)) AS ?person1uri)
+  BIND ( REPLACE(?Name, "[ ?]", "") AS ?procName)
+  BIND ( REPLACE(?LeadActor2, " ", "") AS ?procActor2)
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/propperson_", ?procActor2)) AS ?person3uri)
+  BIND ("actor" AS ?categoryActor)
+  BIND ( REPLACE(?Director, " ", "") AS ?procDirector)
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/propperson_", ?procDirector)) AS ?person2uri)
+  BIND ("director" AS ?categoryDirector)
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/movienew_", ?procName)) AS ?movuri)
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/movieprop_", ?procName)) AS ?propuri)
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/pos_", ?categoryActor)) AS ?aposuri)
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/pos_", ?categoryDirector)) AS ?dposuri)
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/proprol_", ?procName, "_", ?categoryActor)) AS ?rol1uri)
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/proprol_", ?procName, "_", ?categoryDirector)) AS ?rol2uri)
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/proprol_", ?procName, "_", ?categoryActor, "_2")) AS ?rol3uri)
+  BIND ( xsd:integer(CONCAT(?BudgetMillion, "000000")) AS ?fullBudget)
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/genre_", ?Genre)) AS ?genuri)
+} 

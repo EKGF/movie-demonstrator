@@ -1,0 +1,20 @@
+# Per genre per actor find the average IMDB score in movies of that genre
+PREFIX mov: <https://ekgf.org/ontology/movies/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?g ?pn ?avescore WHERE {
+    {SELECT  ?g ?pn (AVG(?s) as ?avescore) WHERE { 
+        ?m a mov:Movie; 
+        rdfs:label ?mn ;
+        mov:hasGenre ?g ;
+        mov:hasReleaseDate ?date ;
+        mov:hasIMDBscore ?s .
+        FILTER (?date > "2012"^^xsd:integer)
+        ?m ^mov:participatesIn ?r.
+        ?r rdfs:label "actor"; mov:filledBy ?p.
+        ?p rdfs:label ?pn
+    } 
+    group by ?g ?pn}
+    FILTER (?avescore > 7)
+}
+order by ?g DESC(?avescore)

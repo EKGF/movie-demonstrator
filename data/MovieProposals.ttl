@@ -1,0 +1,436 @@
+@prefix movdata:  <https://ekgf.org/data/movies/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mov:  <https://ekgf.org/ontology/movies/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+movdata:proprol_MasterofTime_actor
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_MasterofTime ;
+        mov:filledBy        movdata:propperson_TildaSwinton ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_MasterofTime_actor_2
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_MasterofTime ;
+        mov:filledBy        movdata:propperson_ViolaDavis ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_MasterofTime_director
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "director" ;
+        mov:participatesIn  movdata:movienew_MasterofTime ;
+        mov:filledBy        movdata:propperson_GarethEdwards ;
+        mov:hasPosition     movdata:pos_director .
+
+movdata:movienew_MasterofTime
+        rdf:type       mov:Movie ;
+        rdfs:label     "Master of Time" ;
+        mov:hasBudget  15000000 ;
+        mov:hasGenre   movdata:genre_Sci-Fi .
+
+movdata:movieprop_MasterofTime
+        rdf:type            mov:Proposal ;
+        mov:proposesToMake  movdata:movienew_MasterofTime .
+
+movdata:proprol_TheMagicExpress_actor
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_TheMagicExpress ;
+        mov:filledBy        movdata:propperson_ChristianConvery ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_TheMagicExpress_actor_2
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_TheMagicExpress ;
+        mov:filledBy        movdata:propperson_HalaFinley ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_TheMagicExpress_director
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "director" ;
+        mov:participatesIn  movdata:movienew_TheMagicExpress ;
+        mov:filledBy        movdata:propperson_RonHoward ;
+        mov:hasPosition     movdata:pos_director .
+
+movdata:movienew_TheMagicExpress
+        rdf:type       mov:Movie ;
+        rdfs:label     "The Magic Express" ;
+        mov:hasBudget  9000000 ;
+        mov:hasGenre   movdata:genre_Adventure .
+
+movdata:movieprop_TheMagicExpress
+        rdf:type            mov:Proposal ;
+        mov:proposesToMake  movdata:movienew_TheMagicExpress .
+
+movdata:proprol_BadKittyReboot_actor
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_BadKittyReboot ;
+        mov:filledBy        movdata:propperson_PaulRudd ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_BadKittyReboot_actor_2
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_BadKittyReboot ;
+        mov:filledBy        movdata:propperson_ReeseWitherspoon ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_BadKittyReboot_director
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "director" ;
+        mov:participatesIn  movdata:movienew_BadKittyReboot ;
+        mov:filledBy        movdata:propperson_PatriciaArquette ;
+        mov:hasPosition     movdata:pos_director .
+
+movdata:movienew_BadKittyReboot
+        rdf:type       mov:Movie ;
+        rdfs:label     "Bad Kitty Reboot" ;
+        mov:hasBudget  12000000 ;
+        mov:hasGenre   movdata:genre_Romance .
+
+movdata:movieprop_BadKittyReboot
+        rdf:type            mov:Proposal ;
+        mov:proposesToMake  movdata:movienew_BadKittyReboot .
+
+movdata:proprol_AtlanticPassage1944_actor
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_AtlanticPassage1944 ;
+        mov:filledBy        movdata:propperson_StellanSkarsgard ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_AtlanticPassage1944_actor_2
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_AtlanticPassage1944 ;
+        mov:filledBy        movdata:propperson_TerrenceHoward ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_AtlanticPassage1944_director
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "director" ;
+        mov:participatesIn  movdata:movienew_AtlanticPassage1944 ;
+        mov:filledBy        movdata:propperson_JohnMcTiernan ;
+        mov:hasPosition     movdata:pos_director .
+
+movdata:movienew_AtlanticPassage1944
+        rdf:type      mov:Movie ;
+        rdfs:label    "Atlantic Passage 1944" ;
+        mov:hasGenre  movdata:genre_Action .
+
+movdata:movieprop_AtlanticPassage1944
+        rdf:type            mov:Proposal ;
+        mov:proposesToMake  movdata:movienew_AtlanticPassage1944 .
+
+movdata:proprol_WhichSideTruth_actor
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_WhichSideTruth ;
+        mov:filledBy        movdata:propperson_MadsMikkelsen ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_WhichSideTruth_actor_2
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_WhichSideTruth ;
+        mov:filledBy        movdata:propperson_FrancesMcDormand ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_WhichSideTruth_director
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "director" ;
+        mov:participatesIn  movdata:movienew_WhichSideTruth ;
+        mov:filledBy        movdata:propperson_ChristianCarion ;
+        mov:hasPosition     movdata:pos_director .
+
+movdata:movienew_WhichSideTruth
+        rdf:type       mov:Movie ;
+        rdfs:label     "Which Side Truth?" ;
+        mov:hasBudget  14000000 ;
+        mov:hasGenre   movdata:genre_Drama .
+
+movdata:movieprop_WhichSideTruth
+        rdf:type            mov:Proposal ;
+        mov:proposesToMake  movdata:movienew_WhichSideTruth .
+
+movdata:proprol_ChristmasNight_actor
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_ChristmasNight ;
+        mov:filledBy        movdata:propperson_TomHanks ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_ChristmasNight_actor_2
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_ChristmasNight ;
+        mov:filledBy        movdata:propperson_MadelieneMcGraw ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_ChristmasNight_director
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "director" ;
+        mov:participatesIn  movdata:movienew_ChristmasNight ;
+        mov:filledBy        movdata:propperson_AnnaGutto ;
+        mov:hasPosition     movdata:pos_director .
+
+movdata:movienew_ChristmasNight
+        rdf:type       mov:Movie ;
+        rdfs:label     "Christmas Night" ;
+        mov:hasBudget  8000000 ;
+        mov:hasGenre   movdata:genre_Family .
+
+movdata:movieprop_ChristmasNight
+        rdf:type            mov:Proposal ;
+        mov:proposesToMake  movdata:movienew_ChristmasNight .
+
+movdata:proprol_OldCountry_actor
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_OldCountry ;
+        mov:filledBy        movdata:propperson_JulietteBinoche ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_OldCountry_actor_2
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_OldCountry ;
+        mov:filledBy        movdata:propperson_JavierBardem ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_OldCountry_director
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "director" ;
+        mov:participatesIn  movdata:movienew_OldCountry ;
+        mov:filledBy        movdata:propperson_EthanCoen ;
+        mov:hasPosition     movdata:pos_director .
+
+movdata:movienew_OldCountry
+        rdf:type       mov:Movie ;
+        rdfs:label     "Old Country" ;
+        mov:hasBudget  13000000 ;
+        mov:hasGenre   movdata:genre_Western .
+
+movdata:movieprop_OldCountry
+        rdf:type            mov:Proposal ;
+        mov:proposesToMake  movdata:movienew_OldCountry .
+
+movdata:proprol_TrafficStop_actor
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_TrafficStop ;
+        mov:filledBy        movdata:propperson_JackBlack ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_TrafficStop_actor_2
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_TrafficStop ;
+        mov:filledBy        movdata:propperson_KenJeong ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_TrafficStop_director
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "director" ;
+        mov:participatesIn  movdata:movienew_TrafficStop ;
+        mov:filledBy        movdata:propperson_HaroldRamis ;
+        mov:hasPosition     movdata:pos_director .
+
+movdata:movienew_TrafficStop
+        rdf:type      mov:Movie ;
+        rdfs:label    "Traffic Stop" ;
+        mov:hasGenre  movdata:genre_Comedy .
+
+movdata:movieprop_TrafficStop
+        rdf:type            mov:Proposal ;
+        mov:proposesToMake  movdata:movienew_TrafficStop .
+
+movdata:proprol_TheBlueMemory_actor
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_TheBlueMemory ;
+        mov:filledBy        movdata:propperson_ElijahWood ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_TheBlueMemory_actor_2
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_TheBlueMemory ;
+        mov:filledBy        movdata:propperson_EwanMcGregor ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_TheBlueMemory_director
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "director" ;
+        mov:participatesIn  movdata:movienew_TheBlueMemory ;
+        mov:filledBy        movdata:propperson_TerryGilliam ;
+        mov:hasPosition     movdata:pos_director .
+
+movdata:movienew_TheBlueMemory
+        rdf:type       mov:Movie ;
+        rdfs:label     "The Blue Memory" ;
+        mov:hasBudget  12000000 ;
+        mov:hasGenre   movdata:genre_Fantasy .
+
+movdata:movieprop_TheBlueMemory
+        rdf:type            mov:Proposal ;
+        mov:proposesToMake  movdata:movienew_TheBlueMemory .
+
+movdata:proprol_CovenCult_actor
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_CovenCult ;
+        mov:filledBy        movdata:propperson_DougBradley ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_CovenCult_actor_2
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_CovenCult ;
+        mov:filledBy        movdata:propperson_VeronicaCartwright ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_CovenCult_director
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "director" ;
+        mov:participatesIn  movdata:movienew_CovenCult ;
+        mov:filledBy        movdata:propperson_SamRaimi ;
+        mov:hasPosition     movdata:pos_director .
+
+movdata:movienew_CovenCult
+        rdf:type       mov:Movie ;
+        rdfs:label     "Coven Cult" ;
+        mov:hasBudget  8000000 ;
+        mov:hasGenre   movdata:genre_Horror .
+
+movdata:movieprop_CovenCult
+        rdf:type            mov:Proposal ;
+        mov:proposesToMake  movdata:movienew_CovenCult .
+
+movdata:proprol_MissingCut_actor
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_MissingCut ;
+        mov:filledBy        movdata:propperson_BenKingsley ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_MissingCut_actor_2
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_MissingCut ;
+        mov:filledBy        movdata:propperson_HelenMirren ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_MissingCut_director
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "director" ;
+        mov:participatesIn  movdata:movienew_MissingCut ;
+        mov:filledBy        movdata:propperson_DavidMamet ;
+        mov:hasPosition     movdata:pos_director .
+
+movdata:movienew_MissingCut
+        rdf:type       mov:Movie ;
+        rdfs:label     "Missing Cut" ;
+        mov:hasBudget  14000000 ;
+        mov:hasGenre   movdata:genre_Thriller .
+
+movdata:movieprop_MissingCut
+        rdf:type            mov:Proposal ;
+        mov:proposesToMake  movdata:movienew_MissingCut .
+
+movdata:proprol_Buzzcuts_actor
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_Buzzcuts ;
+        mov:filledBy        movdata:propperson_SamuelL.Jackson ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_Buzzcuts_actor_2
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_Buzzcuts ;
+        mov:filledBy        movdata:propperson_JoshBrolin ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_Buzzcuts_director
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "director" ;
+        mov:participatesIn  movdata:movienew_Buzzcuts ;
+        mov:filledBy        movdata:propperson_JosephKosinski ;
+        mov:hasPosition     movdata:pos_director .
+
+movdata:movienew_Buzzcuts
+        rdf:type       mov:Movie ;
+        rdfs:label     "Buzzcuts" ;
+        mov:hasBudget  10000000 ;
+        mov:hasGenre   movdata:genre_Adventure .
+
+movdata:movieprop_Buzzcuts
+        rdf:type            mov:Proposal ;
+        mov:proposesToMake  movdata:movienew_Buzzcuts .
+
+movdata:proprol_TheNantucketIncident_actor
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_TheNantucketIncident ;
+        mov:filledBy        movdata:propperson_OliviaColman ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_TheNantucketIncident_actor_2
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_TheNantucketIncident ;
+        mov:filledBy        movdata:propperson_KodiSmit-McPhee ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_TheNantucketIncident_director
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "director" ;
+        mov:participatesIn  movdata:movienew_TheNantucketIncident ;
+        mov:filledBy        movdata:propperson_SebastianLelio ;
+        mov:hasPosition     movdata:pos_director .
+
+movdata:movienew_TheNantucketIncident
+        rdf:type       mov:Movie ;
+        rdfs:label     "The Nantucket Incident" ;
+        mov:hasBudget  12000000 ;
+        mov:hasGenre   movdata:genre_Mystery .
+
+movdata:movieprop_TheNantucketIncident
+        rdf:type            mov:Proposal ;
+        mov:proposesToMake  movdata:movienew_TheNantucketIncident .
+
+movdata:proprol_TheObituaryWriter_actor
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_TheObituaryWriter ;
+        mov:filledBy        movdata:propperson_EmilyWatson ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_TheObituaryWriter_actor_2
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "actor" ;
+        mov:participatesIn  movdata:movienew_TheObituaryWriter ;
+        mov:filledBy        movdata:propperson_BenWhishaw ;
+        mov:hasPosition     movdata:pos_actor .
+
+movdata:proprol_TheObituaryWriter_director
+        rdf:type            mov:TeamRole ;
+        rdfs:label          "director" ;
+        mov:participatesIn  movdata:movienew_TheObituaryWriter ;
+        mov:filledBy        movdata:propperson_JaneCampion ;
+        mov:hasPosition     movdata:pos_director .
+
+movdata:movienew_TheObituaryWriter
+        rdf:type      mov:Movie ;
+        rdfs:label    "The Obituary Writer" ;
+        mov:hasGenre  movdata:genre_Romance .
+
+movdata:movieprop_TheObituaryWriter
+        rdf:type            mov:Proposal ;
+        mov:proposesToMake  movdata:movienew_TheObituaryWriter .
