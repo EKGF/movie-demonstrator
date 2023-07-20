@@ -45,17 +45,17 @@ Want coordinated set of artifacts that we can enrich to different levels of matu
 
 (Use Cases - not part of Data Pillar but needed for scoping and purpose)
 
-Vocabulary
+ - Vocabulary
 
-Ontology
+ - Ontology
 
-Dataset/product
+ - Dataset/product
 
-Mappings to/from non-RDF data
+ - Mappings to/from non-RDF data
 
-Quality rules
+ - Quality rules
 
-Derivation rules
+ - Derivation rules
 
 … all linked to use cases
 
