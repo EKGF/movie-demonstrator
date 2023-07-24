@@ -33,7 +33,7 @@ You have 11 H1 headings. You may want to use the "H1 -> H2" option to demote all
 
 
 
-# Objectives
+## Objectives
 
 To provide real examples of the Data Pillar outputs that are associated with each other and different levels of maturity.
 
@@ -60,7 +60,7 @@ To coordinate a set of artifacts that we can enrich to different levels of matur
 These are all linked to the use cases.
 
 
-# Criteria
+## Criteria
 
 Not too large
 
@@ -83,7 +83,7 @@ Something that’s useful in its own right
 Need numeric data for derivation/aggregation rules (may just be counts)
 
 
-# Main candidate
+## Main candidate
 
 **Media (movies, TV) (DBpedia, BBC)**
 
@@ -268,7 +268,7 @@ Connections (people connections via same movies)
 	Emergent clusters
 
 
-### More obscure
+## More obscure
 
 Movie ownership (incl via company acquisitions)
 
@@ -283,7 +283,7 @@ Studio locations
 YouTube short movies
 
 
-### Scoping?
+## Scoping?
 
 
 
@@ -296,7 +296,7 @@ YouTube short movies
 ## Datasets
 
 
-### Datasets for initial use case
+## Datasets for initial use case
 
 IMDB - see [https://www.imdb.com/interfaces/](https://www.imdb.com/interfaces/), several datasets available in TSV for non-commercial use, including crew, actors, alternative versions, ratings, genres
 
@@ -352,7 +352,7 @@ The Black List [https://deadline.com/2021/12/the-black-list-2021-screenplays-lis
 Annual Theme Report (PDF)
 
 
-### Other datasets
+## Other datasets
 
 Netflix
 
@@ -407,7 +407,7 @@ Proposal must have:
 	_Size of principal cas_t derived from count (AboveTheLineStaff)
 
 
-# Actions
+## Actions
 
 	Flesh out vocabularies in spreadsheet
 
@@ -449,7 +449,7 @@ GLEIF (companies)
 https://www.researchgate.net/figure/The-ontology-used-to-integrate-IMDB-and-Netflix-data_fig2_39995149
 
 
-# Notes
+## Notes
 
 Decided genre is predominant factor in assessing potential revenue
 
@@ -521,17 +521,17 @@ Query Ideas
 Per genre per actor find the average IMDB score in movies of that genre
 
 
-# Design decisions
+## Design decisions
 
 We will ignore the Movie Lab detailed tech ontologies e.g. camera capabilities since not relevant for use case of movie green lighting.
 
 
 
 
-# (Background - alternatives considered)
+## (Background - alternatives considered)
 
 
-# Prime candidates
+## Prime candidates
 
 **GLEIF legal entity ontology plus datasets (subset for volume management)**
 
@@ -552,7 +552,7 @@ We will ignore the Movie Lab detailed tech ontologies e.g. camera capabilities s
 **IMDB data https://www.imdb.com/interfaces/**
 
 
-# Candidate use cases for prime candidates
+## Candidate use cases for prime candidates
 
 **Acquisition of media companies**
 
@@ -569,7 +569,7 @@ Filtered list of movies
 	Different personas
 
 
-# (Lower priority candidates)
+## (Lower priority candidates)
 
 LCC (Languages and Countries) ontology and dataset
 
