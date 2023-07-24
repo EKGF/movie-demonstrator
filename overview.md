@@ -100,19 +100,19 @@ Consider:
 
 ## Use cases
 
-Earning power of actors (published)(revenue of movies they’ve been in)
-
-	Could apply to directors etc
+### Use Case 1
 
 **As a studio/production company decision maker I want to maximize the box office, and reduce the risk of the movies I can make in the coming year from my overall budget available. The desired business outcome is to maximize profit (dollars as opposed to percentage)**
 
-[the following narrative is intended to identify vocabulary terms - in _italics_]
+Earning power of actors (published)(revenue of movies they’ve been in). This could also apply to directors etc.
 
-note: money can also be made from merchandising and theme parks. 
+Note - The following narrative is intended to identify vocabulary terms - in _italics_
 
-also want to sustain/deepen fan base e.g. through websites, communities, easter eggs
+Money can also be made from merchandising and theme parks. 
 
-Netflix sometimes pays lump sum then takes care of distribution etc excluding theaters
+We also want to sustain/deepen fan base e.g. through websites, communities, easter eggs
+
+Netflix sometimes pays a lump sum and then takes care of distribution etc. excluding theaters
 
 Streaming services need subscribers and advertisers
 
@@ -218,8 +218,6 @@ _- awards (Oscars etc)_
 
 (the following are not relevant at pre-production stage:
 
-
-
 * Release schedule/time of year)
 
 There is a _black list_ [https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/](https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/) of scripts for potential movies which have not been produced for various reasons, which producers have often mined for successful movies.
@@ -236,7 +234,7 @@ Actors may have a different impact depending on the genre e.g. less important fo
 
 Use case narrative needs to say more about the decision making process
 
-	
+### Use Case 2	
 
 **As a parent I want to search for movies suitable for my family**
 
