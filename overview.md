@@ -45,42 +45,44 @@ To coordinate a set of artifacts that we can enrich to different levels of matur
 
 (The use Cases are not part of the Data Pillar but are needed for scoping and purpose)
 
- - Vocabulary
+- Vocabulary
 
- - Ontology
+- Ontology
 
- - Dataset/product
+- Dataset/product
 
- - Mappings to/from non-RDF data
+- Mappings to/from non-RDF data
 
- - Quality rules
+- Quality rules
 
- - Derivation rules
+- Derivation rules
 
 These are all linked to the use cases.
 
 
 ## Criteria
 
-Not too large
+The following criteria are important considerations for the use case:
 
-Quality not volume
+- Not too large
 
-Fairly self-contained
+- Quality not volume
 
-Able to be made open source (no IP issues)
+- Fairly self-contained
 
-Someone on team (or who can be recruited) who understands the domain
+- Able to be made open source (no IP issues)
 
-Understandable to wide audience
+- There is someone on the team (or who can be recruited) who understands the domain
 
-Something that’s useful in its own right
+- Understandable to a wide audience
 
-	Publish by EKGF
+- Something that’s useful in its own right
 
-	Contribute back to author/owner
+	- Publishable by EKGF
 
-Need numeric data for derivation/aggregation rules (may just be counts)
+	- Attribute back to author/owner
+
+- Need numeric data for derivation/aggregation rules (may just be counts)
 
 
 ## Main candidate
