@@ -87,16 +87,15 @@ The following criteria are important considerations for the use case:
 
 ## Main candidate
 
-**Media (movies, TV) (DBpedia, BBC)**
+Media (movies, TV) (DBpedia, BBC)
 
-**	Distinct communities: producers, watchers, content purchasers**
+Consider:
 
-**	Different edits of movies e.g. for ratings, countries, planes**
+- Distinct communities such as *producers, watchers, content purchasers*
 
-**	Could link to GLEIF for companies and ownership**
+- Different edits of movies e.g. for *ratings, countries, planes*
 
-
-# 
+- Linking to GLEIF for companies and ownership
 
 
 ## Use cases
