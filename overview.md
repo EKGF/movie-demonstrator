@@ -284,14 +284,14 @@ Connections (people connections via same movies)
 - YouTube short movies
 
 
-## Scoping?
+## Scoping
 
+Consider:
 
-
-* Movie vs TV show
-* By country
-* By genre
-* By decade
+- Movie vs TV show
+- By country
+- By genre
+- By decade
 
 
 ## Datasets
