@@ -341,8 +341,6 @@ The Black List [https://deadline.com/2021/12/the-black-list-2021-screenplays-lis
 
 **Next actions**:
 
-
-
 * Register
 * Access sample data
 * Assess coverage/overlap - do we need each source?
