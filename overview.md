@@ -269,17 +269,19 @@ Connections (people connections via same movies)
 
 ## More obscure
 
-Movie ownership (incl via company acquisitions)
+- Other considerations can include:
 
-Licensing deals (e.g. when will a movie be available a new company)
+- Movie ownership (including via company acquisitions)
 
-Production locations and incentives
+- Licensing deals (e.g. when will a movie be available for a new company)
 
-Setting locations
+- Production locations and incentives
 
-Studio locations
+- Setting locations
 
-YouTube short movies
+- Studio locations
+
+- YouTube short movies
 
 
 ## Scoping?
