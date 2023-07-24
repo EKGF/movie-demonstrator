@@ -35,15 +35,15 @@ You have 11 H1 headings. You may want to use the "H1 -> H2" option to demote all
 
 # Objectives
 
-Want to provide real examples of the Data Pillar outputs associated with each other and different levels of maturity.
+To provide real examples of the Data Pillar outputs that are associated with each other and different levels of maturity.
 
-Take the same artifact e.g. Ontology through different levels
+To take the same artifact e.g. Ontology through different levels.
 
-Aim to test/prove/illustrate the maturity level criteria
+To test/prove/illustrate the maturity level criteria.
 
-Want coordinated set of artifacts that we can enrich to different levels of maturity:
+To coordinate a set of artifacts that we can enrich to different levels of maturity.
 
-(Use Cases - not part of Data Pillar but needed for scoping and purpose)
+(The use Cases are not part of the Data Pillar but are needed for scoping and purpose)
 
  - Vocabulary
 
@@ -57,7 +57,7 @@ Want coordinated set of artifacts that we can enrich to different levels of matu
 
  - Derivation rules
 
-… all linked to use cases
+These are all linked to the use cases.
 
 
 # Criteria
