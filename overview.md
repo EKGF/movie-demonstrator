@@ -522,7 +522,7 @@ Per genre per actor find the average IMDB score in movies of that genre
 
 ## Design decisions
 
-We will ignore the Movie Lab detailed tech ontologies e.g. camera capabilities since not relevant for use case of movie green lighting.
+We will ignore the Movie Lab detailed tech ontologies with details such as 'camera capabilities' since this is not relevant for the use case regarding movie green lighting.
 
 
 
