@@ -406,15 +406,15 @@ Proposal must have:
 
 ## Actions
 
-	Flesh out vocabularies in spreadsheet
+- Flesh out vocabularies in spreadsheet
 
-	Flesh out ontology and link to vocabulary
+- Flesh out ontology and link to vocabulary
 
-	Provision an online KG
+- Provision for an online KG
 
-	Load ontology and vocabularies
+- Load ontology and vocabularies
 
-	Describe dataset using both 
+- Describe dataset using both 
 
 
     informal doc 
