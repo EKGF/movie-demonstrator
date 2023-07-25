@@ -532,23 +532,25 @@ We will ignore the Movie Lab detailed tech ontologies with details such as 'came
 
 ## Prime candidates
 
-**GLEIF legal entity ontology plus datasets (subset for volume management)**
+**GLEIF legal entity ontology plus datasets** (subset for volume management)
 
-**	Could combine with dbpedia, open corporates**
+	Could combine with dbpedia, open corporates
 
-**	Usecases related to legal aspects, addressing**
+	Usecases related to legal aspects, addressing
 
-**COVID [https://publichealth.jmir.org/2020/4/e21434/](https://publichealth.jmir.org/2020/4/e21434/) **
+**COVID** 
 
-**	Diagnosis only - no instance data (would need to request)**
+[https://publichealth.jmir.org/2020/4/e21434/](https://publichealth.jmir.org/2020/4/e21434/)
+
+	Diagnosis only - no instance data (would need to request)
 
 **Food/agriculture**
 
-**	Agrovoc**
+	Agrovoc
 
 **Dbpedia**
 
-**IMDB data https://www.imdb.com/interfaces/**
+IMDB data https://www.imdb.com/interfaces/
 
 
 ## Candidate use cases for prime candidates
