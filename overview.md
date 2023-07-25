@@ -557,63 +557,61 @@ IMDB data https://www.imdb.com/interfaces/
 
 **Acquisition of media companies**
 
-**	Temporal aspect**
+	Temporal aspect
 
-**	Ownership of movies**
+	Ownership of movies
 
-Classification of movies by audience (type and number)
+**Classification of movies by audience** (type and number)
 
 	Data availability?
 
-Filtered list of movies
+**Filtered list of movies**
 
 	Different personas
 
 
-## (Lower priority candidates)
+## Lower priority candidates
 
-LCC (Languages and Countries) ontology and dataset
+**LCC** (Languages and Countries) ontology and dataset
 
 	Subdivisions, could link to geonames
 
-Parts of FIBO
+**Parts of FIBO**
 
 	Currencies (has nice dataset)
 
-Government and census data, FRED (Federal Reserve)
+**Government and census data** (FRED) (Federal Reserve)
 
-Organization management
+	Organization management (no datasets public would have to invent)
 
-	(no datasets public would have to invent)
+**News (NY Times)**
 
-News (NY Times)
+**Social media (Twitter)**
 
-Social media (Twitter)
-
-DBpedia as source of data for chosen usecase
+	DBpedia as source of data for chosen usecase
 
 —-------
 
-(lower priority)
+*Lower Priority*
 
-Industrial Ontology Foundry (manufacturing industry)
+- Industrial Ontology Foundry (manufacturing industry)
 
-SCOR process model (Association of Supply Chain Management)
+- SCOR process model (Association of Supply Chain Management)
 
-OBO Foundry(?)
+- OBO Foundry(?)
 
-	Biomedical
+		Biomedical
 
-Subset of anti money laundering (EDMC work)
+- Subset of anti money laundering (EDMC work)
 
-Panama Papers dataset?
+- Panama Papers dataset?
 
-Subset of financial reporting (e.g. to SEC)
+- Subset of financial reporting (e.g. to SEC)
 
-	Also 5% ownership
+		Also 5% ownership
 
-COVID [https://www.tableau.com/covid-19-coronavirus-data-resources](https://www.tableau.com/covid-19-coronavirus-data-resources) 
+- COVID 
 
-	Demographics, hospitalization etc
+[https://www.tableau.com/covid-19-coronavirus-data-resources](https://www.tableau.com/covid-19-coronavirus-data-resources) 
 
-	(may be less relevant in a few years, and data refreshed)
+	Demographics, hospitalization etc (may be less relevant in a few years, and data refreshed)
