@@ -242,25 +242,23 @@ Statista [https://www.statista.com/statistics/187193/box-office-gross-of-film-st
 The Black List [https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/](https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/) and [https://blcklst.com](https://blcklst.com)  
 
 
-### Other datasets
+## Other datasets
 
-Netflix
+- Netflix
 
-BBC
+- BBC
 
-… more could be researched
+- Tweets
 
-Tweets
+- Maturity rating 
 
-Maturity rating 
+- Ratings (popularity)
 
-Ratings (popularity)
+- Current Netflix shows
 
-Current Netflix shows
+- YouTube annotated 
 
-YouTube annotated 
-
-GLEIF (companies)
+- GLEIF (companies)
 
 
 ## Business Rules
