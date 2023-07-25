@@ -353,23 +353,21 @@ Annual Theme Report (PDF)
 
 ## Other datasets
 
-Netflix
+- Netflix
 
-BBC
+- BBC
 
-… more could be researched
+- Tweets
 
-Tweets
+- Maturity rating 
 
-Maturity rating 
+- Ratings (popularity)
 
-Ratings (popularity)
+- Current Netflix shows
 
-Current Netflix shows
+- YouTube annotated 
 
-YouTube annotated 
-
-GLEIF (companies)
+- GLEIF (companies)
 
 
 ## Business Rules
