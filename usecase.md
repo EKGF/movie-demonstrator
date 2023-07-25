@@ -297,9 +297,9 @@ Proposal must have:
 
 ## Ontologies
 
-BBC
+- BBC
 
-GLEIF (companies)
+- GLEIF (companies)
 
 
 ## Prior work
@@ -307,9 +307,9 @@ GLEIF (companies)
 https://www.researchgate.net/figure/The-ontology-used-to-integrate-IMDB-and-Netflix-data_fig2_39995149
 
 
-# Notes
+## Notes
 
-Decided genre is predominant factor in assessing potential revenue
+Decided genre is the predominant factor in assessing potential revenue.
 
 Query to obtain average and total revenue for last 5 years by genre.
 
@@ -370,18 +370,20 @@ Found dataset for Oscars winner and nominees up to 2017
 
 [https://datahub.io/rufuspollock/oscars-nominees-and-winners](https://datahub.io/rufuspollock/oscars-nominees-and-winners) 
 
-Extended ontology to include nominees as well as winner.
+Extended the ontology to include the nominees as well as the winner.
 
-Action: use Wikidata dataset which is open source and shareable
+*Action* 
 
-Query Ideas
+Use Wikidata dataset which is open source and shareable.
+
+*Query Ideas*
 
 Per genre per actor find the average IMDB score in movies of that genre
 
 
-# Design decisions
+## Design decisions
 
-We will ignore the Movie Lab detailed tech ontologies e.g. camera capabilities since not relevant for use case of movie green lighting.
+We will ignore the Movie Lab detailed tech ontologies with details such as 'camera capabilities' since this is not relevant for the use case regarding movie green lighting.
 
 
 # Actions
