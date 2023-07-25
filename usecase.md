@@ -386,17 +386,17 @@ Per genre per actor find the average IMDB score in movies of that genre
 We will ignore the Movie Lab detailed tech ontologies with details such as 'camera capabilities' since this is not relevant for the use case regarding movie green lighting.
 
 
-# Actions
+## Actions
 
-	Flesh out vocabularies in spreadsheet
+- Flesh out vocabularies in spreadsheet
 
-	Flesh out ontology and link to vocabulary
+- Flesh out ontology and link to vocabulary
 
-	Provision an online KG
+- Provision for an online KG
 
-	Load ontology and vocabularies
+- Load ontology and vocabularies
 
-	Describe dataset using both 
+- Describe dataset using both 
 
 
     informal doc 
