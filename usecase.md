@@ -42,11 +42,11 @@ Note: Use case narrative needs to say more about the decision making process
 
 Note: Potential vocabulary terms will be indicated in italic font
 
-As a traditional (not streaming services) movie studio executive I’m planning for the coming year, working out which movies to _greenlight_ from a number of movie production _proposals_, within an overall _annual budget._ My goal is to maximize the _box office_ and reduce the risk of the movies I make in the coming year, with the desired business outcome being to create maximum profit (dollars as opposed to percentage). The funding process I engage in may involve a number of decision-making stages, each of which will filter out some candidates.  
+As a traditional (not streaming services) movie studio executive I’m planning for the coming year by working out which movies to _greenlight_ from a number of movie production _proposals_, within an overall _annual budget._ My goal is to maximize the _box office_ and reduce the risk of the movies I make in the coming year, with the desired business outcome of being able to maximize profit (dollars as opposed to percentage). The funding process I engage in may involve a number of decision-making stages, each of which will filter out some candidates.  
 
-As I peruse production _proposals, _I will initially scope financing _factors_ to include the estimated movie budget, the _genre,_ and the prior movie revenue power (within the last 5-10 years) of key _above-the-line _people: _director_(s) and lead _actors_, who are being advanced for each project. (Actors can often have a different impact on revenues depending on the project genre, e.g.,less important for horror movies).  
+As I peruse production _proposals,_ I will initially scope financing _factors_ to include the estimated movie budget, the _genre,_ and the prior movie revenue power (within the last 5-10 years) of key _above-the-line_ people: _director_(s) and lead _actors_, who are being advanced for each project. (Actors can often have a different impact on revenues depending on the project genre e.g. they are less important for horror movies).  
 
-As I continue the process, my **box office** funding considerations may be based on (combinations of) any of several factors such as:
+As I continue the process, my **box office** funding considerations may be based on combinations of any of several factors such as:
 
 - specific actor pulling power
 
@@ -80,88 +80,91 @@ As I continue the process, my **box office** funding considerations may be based
 
 - _distribution geography (can affect permitted subject matter)_
 
-_- awards (Oscars etc)_
+- _awards_ (Oscars etc)
 
 - marketing and promotion
 
 - actual release (e.g. was it in cinema, straight to video/streaming)
 
-(the following are not relevant at pre-production stage:
+The following are not relevant at pre-production stage:
+
+- Release schedule/time of year
 
 
+Other factors that I may be considering when I _outline financing needed_ for these movie proposals include:
 
-* Release schedule/time of year)
+- Financing already agreed
 
-Other factors that I may be considering when I _outline financing needed _for these movie proposals include:
+- _Locations_ (indoor soundstage, outdoor locations) with number of days and _sets_
 
- Financing already agreed
+	Production locations and incentives
 
- _Locations_ (indoor soundstage, outdoor locations) with number of days and _sets_
+	Setting locations
 
-   Production locations and incentives
+	Studio locations (YouTube short movies)
 
-   Setting locations
+- _Extras_
 
-   Studio locationsYouTube short movies
+- Whether it’s a _union production_
 
- _Extras_
+- _Equipment_ (lights, camera, monitors, cables etc. which are typically rented)
 
-_ _Whether it’s a _union production_
+- _Special effects_ or _post production_
 
-_ Equipment _(lights, camera, monitors, cables etc. which are typically rented)
+- _Music_ (composer and orchestra, or licensing (_ASCAP_))
 
-_ Special effects_ or _post production_
+- Licensing of _copyright material_ (e.g. book) 
 
- _Music_ (composer and orchestra, or licensing (_ASCAP_))
+- _Insurance_
 
- Licensing of _copyright material_ (e.g. book) 
+- Marketing and distribution (including international)
 
- _Insurance_
+- Viewership (in cinema and broadcast/streaming/planes)
 
-_ Marketing and distribution (including international)_
+- Genres/trends
 
-Viewership (in cinema and broadcast/streaming/planes)
+- Advertising/audiences
 
-Genres/trends
-
-Advertising/audiences
-
-Soundtrack (available independent of movie?)
+- Soundtrack (available independent of movie?)
 
 	Connection to musicians/composers
 
-TV shows - no of episodes, no of series
+- TV shows (no. of episodes, no. of series)
 
-Availability of captioning (by language) or dubbing
+- Availability of captioning (by language or dubbing)
 
-Connections to books/authors
+- Connections to books/authors
 
-Awards (Oscars etc)
+- Awards (Oscars etc)
 
-Connections (people connections via same movies)
+- Connections (people connections via same movies)
 
 	Companies, studios, places
 
 	Emergent clusters
 
-Movie ownership (including via company acquisitions)
+- Movie ownership (including via company acquisitions)
 
-Licensing deals (e.g. when will a movie be available a new company)
-
-Revenue aspects I might consider in decision making include:
-
-  Revenue as a whole may be composed of cinema, TV, streaming; 
-
-  Revenue may be spread out over time (some are sleepers): _“box office_” means the actual physical cinema
-
-  There is a multi-year lag between deciding to make a movie and its actual release
-
-  Due to inflation, box office for older movies should be adjusted to today’s values 
-
-I may also consult a _black list_ [https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/](https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/) of scripts for potential movies which have not been produced for various reasons, but which we producers often mine in our search for successful movies.
+- Licensing deals (e.g. when will a movie be available for a new company)
 
 
-# Datasets
+Revenue aspects I might consider in decision-making include:
+
+- Revenue as a whole may be composed of cinema, TV, streaming
+
+- Revenue may be spread out over time (some are sleepers): _“box office_” means the actual physical cinema
+
+- There is a multi-year lag between deciding to make a movie and its actual release
+
+- Due to inflation, the box office for older movies should be adjusted to today’s values
+
+
+I may also consult a _black list_ 
+[https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/](https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/) 
+of scripts for potential movies which have not been produced for various reasons, but which we producers often mine in our search for successful movies.
+
+
+## Datasets
 
 Datasets for initial use case
 
@@ -173,7 +176,7 @@ Open source data, available via SPARQL or as a dump
 
 ## EIRDA
 
-Info about each movie using a persistent id, and relating ids from other datasets such as IMDB, TheNumbers
+Information about each movie using a persistent ID, and relating IDs from other datasets such as IMDB and TheNumbers
 
 
 ## Oscars Winners
@@ -185,17 +188,20 @@ Oscars winner and nominees up to 2017
 
 ## The Numbers
 
-Earnings (List of box office by actor) [https://www.the-numbers.com/bankability](https://www.the-numbers.com/bankability) 
+- Earnings (List of box office by actor) 
+[https://www.the-numbers.com/bankability](https://www.the-numbers.com/bankability) 
 
-	Potential source of genres
+- Potential source of genres
 
-	Can create custom reports
+- Can create custom reports
 
-	Data available for academic non-commercial use - register at [https://www.opusdata.com/](https://www.opusdata.com/) 
+- Data available for academic non-commercial use - register at
+[https://www.opusdata.com/](https://www.opusdata.com/) 
 
-	“for those needing deeper analysis of the data, Nash Information Services' uses the data as source to generate revenue estimates for past movies, analyses for future releases, and many other reports that can be critical to planning an investment or creating a compelling business plan for a movie. Sophisticated modeling tools analyze the past and future performance of movies, including ancillary revenue from DVD and Blu-ray sales and rentals, VOD and subscription streaming, TV sales, and foreign earnings.”
+“for those needing deeper analysis of the data, Nash Information Services' uses the data as source to generate revenue estimates for past movies, analyses for future releases, and many other reports that can be critical to planning an investment or creating a compelling business plan for a movie. Sophisticated modeling tools analyze the past and future performance of movies, including ancillary revenue from DVD and Blu-ray sales and rentals, VOD and subscription streaming, TV sales, and foreign earnings.”
 
-The Numbers is owned and operated by [Nash Information Services, LLC](http://www.nashinfoservices.com/).
+The Numbers is owned and operated by 
+[Nash Information Services, LLC](http://www.nashinfoservices.com/).
 
 Email: info@nashinfoservices.com
 
@@ -211,56 +217,59 @@ IMDB definitions
 
 ## IMDB
 
- - see [https://www.imdb.com/interfaces/](https://www.imdb.com/interfaces/), several datasets available in TSV for non-commercial use, including crew, actors, alternative versions, ratings, genres
+[https://www.imdb.com/interfaces/](https://www.imdb.com/interfaces/), 
+There are several datasets available in TSV for non-commercial use, including crew, actors, alternative versions, ratings, and genres
 
-Note: restricted to non-commercial and “personal” use though the latter is not defined
+Note: restricted to "Non-commercial" and “Personal” use though the latter is not defined
 
 Relevant datasets:
 
-	Titlebasics
+- Titlebasics
 
-	Namebasics
+- Namebasics
 
-	Crew
+- Crew
 
-	Principles
+- Principles
 
 (Ratings for the “choose a movie” use case)
 
-TMDB (The Movie Database) [https://www.themoviedb.org/?language=en-US](https://www.themoviedb.org/?language=en-US) has an API [https://www.themoviedb.org/documentation/api?language=en-US](https://www.themoviedb.org/documentation/api?language=en-US) 
+## TMDB (The Movie Database) 
+[https://www.themoviedb.org/?language=en-US](https://www.themoviedb.org/?language=en-US) has an API [https://www.themoviedb.org/documentation/api?language=en-US](https://www.themoviedb.org/documentation/api?language=en-US) 
 
-	Has movie, cast, plot
+- Has movie, cast, plot
 
-	API free to use for non-commercial use
+- API free to use for non-commercial use
 
-BizVibe [https://blog.bizvibe.com/blog/top-movie-production-companies](https://blog.bizvibe.com/blog/top-movie-production-companies) 
+## BizVibe 
+[https://blog.bizvibe.com/blog/top-movie-production-companies](https://blog.bizvibe.com/blog/top-movie-production-companies) 
 
 Studios and box office successes
 
-Statista [https://www.statista.com/statistics/187193/box-office-gross-of-film-studios-in-north-america-2010/](https://www.statista.com/statistics/187193/box-office-gross-of-film-studios-in-north-america-2010/) 
+## Statista 
+[https://www.statista.com/statistics/187193/box-office-gross-of-film-studios-in-north-america-2010/](https://www.statista.com/statistics/187193/box-office-gross-of-film-studios-in-north-america-2010/) 
 
-The Black List [https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/](https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/) and [https://blcklst.com](https://blcklst.com)  
+## The Black List 
+[https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/](https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/) and [https://blcklst.com](https://blcklst.com)  
 
 
-### Other datasets
+## Other datasets
 
-Netflix
+- Netflix
 
-BBC
+- BBC
 
-… more could be researched
+- Tweets
 
-Tweets
+- Maturity rating 
 
-Maturity rating 
+- Ratings (popularity)
 
-Ratings (popularity)
+- Current Netflix shows
 
-Current Netflix shows
+- YouTube annotated 
 
-YouTube annotated 
-
-GLEIF (companies)
+- GLEIF (companies)
 
 
 ## Business Rules
@@ -299,9 +308,9 @@ Proposal must have:
 
 ## Ontologies
 
-BBC
+- BBC
 
-GLEIF (companies)
+- GLEIF (companies)
 
 
 ## Prior work
@@ -309,9 +318,9 @@ GLEIF (companies)
 https://www.researchgate.net/figure/The-ontology-used-to-integrate-IMDB-and-Netflix-data_fig2_39995149
 
 
-# Notes
+## Notes
 
-Decided genre is predominant factor in assessing potential revenue
+Decided genre is the predominant factor in assessing potential revenue.
 
 Query to obtain average and total revenue for last 5 years by genre.
 
@@ -372,31 +381,33 @@ Found dataset for Oscars winner and nominees up to 2017
 
 [https://datahub.io/rufuspollock/oscars-nominees-and-winners](https://datahub.io/rufuspollock/oscars-nominees-and-winners) 
 
-Extended ontology to include nominees as well as winner.
+Extended the ontology to include the nominees as well as the winner.
 
-Action: use Wikidata dataset which is open source and shareable
+*Action* 
 
-Query Ideas
+Use Wikidata dataset which is open source and shareable.
+
+*Query Ideas*
 
 Per genre per actor find the average IMDB score in movies of that genre
 
 
-# Design decisions
+## Design decisions
 
-We will ignore the Movie Lab detailed tech ontologies e.g. camera capabilities since not relevant for use case of movie green lighting.
+We will ignore the Movie Lab detailed tech ontologies with details such as 'camera capabilities' since this is not relevant for the use case regarding movie green lighting.
 
 
-# Actions
+## Actions
 
-	Flesh out vocabularies in spreadsheet
+- Flesh out vocabularies in spreadsheet
 
-	Flesh out ontology and link to vocabulary
+- Flesh out ontology and link to vocabulary
 
-	Provision an online KG
+- Provision for an online KG
 
-	Load ontology and vocabularies
+- Load ontology and vocabularies
 
-	Describe dataset using both 
+- Describe dataset using both 
 
 
     informal doc 

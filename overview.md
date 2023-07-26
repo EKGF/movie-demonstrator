@@ -33,85 +33,86 @@ You have 11 H1 headings. You may want to use the "H1 -> H2" option to demote all
 
 
 
-# Objectives
+## Objectives
 
-Want to provide real examples of the Data Pillar outputs associated with each other and different levels of maturity.
+To provide real examples of the Data Pillar outputs that are associated with each other and different levels of maturity.
 
-Take the same artifact e.g. Ontology through different levels
+To take the same artifact e.g. Ontology through different levels.
 
-Aim to test/prove/illustrate the maturity level criteria
+To test/prove/illustrate the maturity level criteria.
 
-Want coordinated set of artifacts that we can enrich to different levels of maturity:
+To coordinate a set of artifacts that we can enrich to different levels of maturity.
 
-(Use Cases - not part of Data Pillar but needed for scoping and purpose)
+(The use Cases are not part of the Data Pillar but are needed for scoping and purpose)
 
- - Vocabulary
+- Vocabulary
 
- - Ontology
+- Ontology
 
- - Dataset/product
+- Dataset/product
 
- - Mappings to/from non-RDF data
+- Mappings to/from non-RDF data
 
- - Quality rules
+- Quality rules
 
- - Derivation rules
+- Derivation rules
 
-… all linked to use cases
-
-
-# Criteria
-
-Not too large
-
-Quality not volume
-
-Fairly self-contained
-
-Able to be made open source (no IP issues)
-
-Someone on team (or who can be recruited) who understands the domain
-
-Understandable to wide audience
-
-Something that’s useful in its own right
-
-	Publish by EKGF
-
-	Contribute back to author/owner
-
-Need numeric data for derivation/aggregation rules (may just be counts)
+These are all linked to the use cases.
 
 
-# Main candidate
+## Criteria
 
-**Media (movies, TV) (DBpedia, BBC)**
+The following criteria are important considerations for the use case:
 
-**	Distinct communities: producers, watchers, content purchasers**
+- Not too large
 
-**	Different edits of movies e.g. for ratings, countries, planes**
+- Quality not volume
 
-**	Could link to GLEIF for companies and ownership**
+- Fairly self-contained
+
+- Able to be made open source (no IP issues)
+
+- There is someone on the team (or who can be recruited) who understands the domain
+
+- Understandable to a wide audience
+
+- Something that’s useful in its own right
+
+	- Publishable by EKGF
+
+	- Attribute back to author/owner
+
+- Need numeric data for derivation/aggregation rules (may just be counts)
 
 
-# 
+## Main candidate
+
+Media (movies, TV) (DBpedia, BBC)
+
+Consider:
+
+- Distinct communities such as *producers, watchers, content purchasers*
+
+- Different edits of movies e.g. for *ratings, countries, planes*
+
+- Linking to GLEIF for companies and ownership
 
 
 ## Use cases
 
-Earning power of actors (published)(revenue of movies they’ve been in)
-
-	Could apply to directors etc
+### Use Case 1
 
 **As a studio/production company decision maker I want to maximize the box office, and reduce the risk of the movies I can make in the coming year from my overall budget available. The desired business outcome is to maximize profit (dollars as opposed to percentage)**
 
-[the following narrative is intended to identify vocabulary terms - in _italics_]
+Earning power of actors (published)(revenue of movies they’ve been in). This could also apply to directors etc.
 
-note: money can also be made from merchandising and theme parks. 
+Note - The following narrative is intended to identify vocabulary terms - in _italics_
 
-also want to sustain/deepen fan base e.g. through websites, communities, easter eggs
+Money can also be made from merchandising and theme parks. 
 
-Netflix sometimes pays lump sum then takes care of distribution etc excluding theaters
+We also want to sustain/deepen fan base e.g. through websites, communities, easter eggs
+
+Netflix sometimes pays a lump sum and then takes care of distribution etc. excluding theaters
 
 Streaming services need subscribers and advertisers
 
@@ -217,8 +218,6 @@ _- awards (Oscars etc)_
 
 (the following are not relevant at pre-production stage:
 
-
-
 * Release schedule/time of year)
 
 There is a _black list_ [https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/](https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/) of scripts for potential movies which have not been produced for various reasons, which producers have often mined for successful movies.
@@ -235,7 +234,7 @@ Actors may have a different impact depending on the genre e.g. less important fo
 
 Use case narrative needs to say more about the decision making process
 
-	
+### Use Case 2	
 
 **As a parent I want to search for movies suitable for my family**
 
@@ -268,35 +267,37 @@ Connections (people connections via same movies)
 	Emergent clusters
 
 
-### More obscure
+## More obscure
 
-Movie ownership (incl via company acquisitions)
+- Other considerations can include:
 
-Licensing deals (e.g. when will a movie be available a new company)
+- Movie ownership (including via company acquisitions)
 
-Production locations and incentives
+- Licensing deals (e.g. when will a movie be available for a new company)
 
-Setting locations
+- Production locations and incentives
 
-Studio locations
+- Setting locations
 
-YouTube short movies
+- Studio locations
 
-
-### Scoping?
-
+- YouTube short movies
 
 
-* Movie vs TV show
-* By country
-* By genre
-* By decade
+## Scoping
+
+Consider:
+
+- Movie vs TV show
+- By country
+- By genre
+- By decade
 
 
 ## Datasets
 
 
-### Datasets for initial use case
+## Datasets for initial use case
 
 IMDB - see [https://www.imdb.com/interfaces/](https://www.imdb.com/interfaces/), several datasets available in TSV for non-commercial use, including crew, actors, alternative versions, ratings, genres
 
@@ -340,8 +341,6 @@ The Black List [https://deadline.com/2021/12/the-black-list-2021-screenplays-lis
 
 **Next actions**:
 
-
-
 * Register
 * Access sample data
 * Assess coverage/overlap - do we need each source?
@@ -352,25 +351,23 @@ The Black List [https://deadline.com/2021/12/the-black-list-2021-screenplays-lis
 Annual Theme Report (PDF)
 
 
-### Other datasets
+## Other datasets
 
-Netflix
+- Netflix
 
-BBC
+- BBC
 
-… more could be researched
+- Tweets
 
-Tweets
+- Maturity rating 
 
-Maturity rating 
+- Ratings (popularity)
 
-Ratings (popularity)
+- Current Netflix shows
 
-Current Netflix shows
+- YouTube annotated 
 
-YouTube annotated 
-
-GLEIF (companies)
+- GLEIF (companies)
 
 
 ## Business Rules
@@ -407,17 +404,17 @@ Proposal must have:
 	_Size of principal cas_t derived from count (AboveTheLineStaff)
 
 
-# Actions
+## Actions
 
-	Flesh out vocabularies in spreadsheet
+- Flesh out vocabularies in spreadsheet
 
-	Flesh out ontology and link to vocabulary
+- Flesh out ontology and link to vocabulary
 
-	Provision an online KG
+- Provision for an online KG
 
-	Load ontology and vocabularies
+- Load ontology and vocabularies
 
-	Describe dataset using both 
+- Describe dataset using both 
 
 
     informal doc 
@@ -439,9 +436,9 @@ Proposal must have:
 
 ## Ontologies
 
-BBC
+- BBC
 
-GLEIF (companies)
+- GLEIF (companies)
 
 
 ## Prior work
@@ -449,9 +446,9 @@ GLEIF (companies)
 https://www.researchgate.net/figure/The-ontology-used-to-integrate-IMDB-and-Netflix-data_fig2_39995149
 
 
-# Notes
+## Notes
 
-Decided genre is predominant factor in assessing potential revenue
+Decided genre is the predominant factor in assessing potential revenue.
 
 Query to obtain average and total revenue for last 5 years by genre.
 
@@ -512,107 +509,109 @@ Found dataset for Oscars winner and nominees up to 2017
 
 [https://datahub.io/rufuspollock/oscars-nominees-and-winners](https://datahub.io/rufuspollock/oscars-nominees-and-winners) 
 
-Extended ontology to include nominees as well as winner.
+Extended the ontology to include the nominees as well as the winner.
 
-Action: use Wikidata dataset which is open source and shareable.
+*Action* 
 
-Query Ideas
+Use Wikidata dataset which is open source and shareable.
+
+*Query Ideas*
 
 Per genre per actor find the average IMDB score in movies of that genre
 
 
-# Design decisions
+## Design decisions
 
-We will ignore the Movie Lab detailed tech ontologies e.g. camera capabilities since not relevant for use case of movie green lighting.
-
-
+We will ignore the Movie Lab detailed tech ontologies with details such as 'camera capabilities' since this is not relevant for the use case regarding movie green lighting.
 
 
-# (Background - alternatives considered)
 
 
-# Prime candidates
+## (Background - alternatives considered)
 
-**GLEIF legal entity ontology plus datasets (subset for volume management)**
 
-**	Could combine with dbpedia, open corporates**
+## Prime candidates
 
-**	Usecases related to legal aspects, addressing**
+**GLEIF legal entity ontology plus datasets** (subset for volume management)
 
-**COVID [https://publichealth.jmir.org/2020/4/e21434/](https://publichealth.jmir.org/2020/4/e21434/) **
+	Could combine with dbpedia, open corporates
 
-**	Diagnosis only - no instance data (would need to request)**
+	Usecases related to legal aspects, addressing
+
+**COVID** 
+
+[https://publichealth.jmir.org/2020/4/e21434/](https://publichealth.jmir.org/2020/4/e21434/)
+
+	Diagnosis only - no instance data (would need to request)
 
 **Food/agriculture**
 
-**	Agrovoc**
+	Agrovoc
 
 **Dbpedia**
 
-**IMDB data https://www.imdb.com/interfaces/**
+IMDB data https://www.imdb.com/interfaces/
 
 
-# Candidate use cases for prime candidates
+## Candidate use cases for prime candidates
 
 **Acquisition of media companies**
 
-**	Temporal aspect**
+	Temporal aspect
 
-**	Ownership of movies**
+	Ownership of movies
 
-Classification of movies by audience (type and number)
+**Classification of movies by audience** (type and number)
 
 	Data availability?
 
-Filtered list of movies
+**Filtered list of movies**
 
 	Different personas
 
 
-# (Lower priority candidates)
+## Lower priority candidates
 
-LCC (Languages and Countries) ontology and dataset
+**LCC** (Languages and Countries) ontology and dataset
 
 	Subdivisions, could link to geonames
 
-Parts of FIBO
+**Parts of FIBO**
 
 	Currencies (has nice dataset)
 
-Government and census data, FRED (Federal Reserve)
+**Government and census data** (FRED) (Federal Reserve)
 
-Organization management
+	Organization management (no datasets public would have to invent)
 
-	(no datasets public would have to invent)
+**News (NY Times)**
 
-News (NY Times)
+**Social media (Twitter)**
 
-Social media (Twitter)
-
-DBpedia as source of data for chosen usecase
+	DBpedia as source of data for chosen usecase
 
 —-------
 
-(lower priority)
+*Lower Priority*
 
-Industrial Ontology Foundry (manufacturing industry)
+- Industrial Ontology Foundry (manufacturing industry)
 
-SCOR process model (Association of Supply Chain Management)
+- SCOR process model (Association of Supply Chain Management)
 
-OBO Foundry(?)
+- OBO Foundry(?)
 
-	Biomedical
+		Biomedical
 
-Subset of anti money laundering (EDMC work)
+- Subset of anti money laundering (EDMC work)
 
-Panama Papers dataset?
+- Panama Papers dataset?
 
-Subset of financial reporting (e.g. to SEC)
+- Subset of financial reporting (e.g. to SEC)
 
-	Also 5% ownership
+		Also 5% ownership
 
-COVID [https://www.tableau.com/covid-19-coronavirus-data-resources](https://www.tableau.com/covid-19-coronavirus-data-resources) 
+- COVID 
 
-	Demographics, hospitalization etc
+[https://www.tableau.com/covid-19-coronavirus-data-resources](https://www.tableau.com/covid-19-coronavirus-data-resources) 
 
-	(may be less relevant in a few years, and data refreshed)
+	Demographics, hospitalization etc (may be less relevant in a few years, and data refreshed)
