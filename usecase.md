@@ -46,7 +46,7 @@ As a traditional (not streaming services) movie studio executive I’m planning 
 
 As I peruse production _proposals,_ I will initially scope financing _factors_ to include the estimated movie budget, the _genre,_ and the prior movie revenue power (within the last 5-10 years) of key _above-the-line_ people: _director_(s) and lead _actors_, who are being advanced for each project. (Actors can often have a different impact on revenues depending on the project genre e.g. they are less important for horror movies).  
 
-As I continue the process, my **box office** funding considerations may be based on combinations of any of several factors such as:
+As I continue the process, my _box office_ funding considerations may be based on combinations of any of several factors such as:
 
 - specific actor pulling power
 
@@ -97,11 +97,11 @@ Other factors that I may be considering when I _outline financing needed_ for th
 
 - _Locations_ (indoor soundstage, outdoor locations) with number of days and _sets_
 
-	Production locations and incentives
+- Production locations and incentives
 
-	Setting locations
+- Setting locations
 
-	Studio locations (YouTube short movies)
+- Studio locations
 
 - _Extras_
 
@@ -169,24 +169,24 @@ of scripts for potential movies which have not been produced for various reasons
 Datasets for initial use case
 
 
-## Wikidata
+### Wikidata
 
 Open source data, available via SPARQL or as a dump
 
 
-## EIRDA
+### EIRDA
 
 Information about each movie using a persistent ID, and relating IDs from other datasets such as IMDB and TheNumbers
 
 
-## Oscars Winners
+### Oscars Winners
 
 Oscars winner and nominees up to 2017
 
 [https://datahub.io/rufuspollock/oscars-nominees-and-winners](https://datahub.io/rufuspollock/oscars-nominees-and-winners) 
 
 
-## The Numbers
+### The Numbers
 
 - Earnings (List of box office by actor) 
 [https://www.the-numbers.com/bankability](https://www.the-numbers.com/bankability) 
@@ -210,12 +210,12 @@ Address: 8200 Wilshire Blvd, Suite 200, Beverly Hills, CA 90211
 “The Numbers was officially launched on October 17th, 1997 as a free resource for industry professionals, the investment community, and movie fans to track business information on movies. Since its humble early beginnings, with just 300 tracked movies, the site has grown to become the largest freely available database of movie industry information on the web. Over 20,000 movies and nearly 100,000 people are now tracked and we continue our commitment to making this data available to the widest possible audience.”
 
 
-## Genres
+### Genres
 
 IMDB definitions
 
 
-## IMDB
+### IMDB
 
 [https://www.imdb.com/interfaces/](https://www.imdb.com/interfaces/), 
 There are several datasets available in TSV for non-commercial use, including crew, actors, alternative versions, ratings, and genres
@@ -234,26 +234,26 @@ Relevant datasets:
 
 (Ratings for the “choose a movie” use case)
 
-## TMDB (The Movie Database) 
+### TMDB (The Movie Database) 
 [https://www.themoviedb.org/?language=en-US](https://www.themoviedb.org/?language=en-US) has an API [https://www.themoviedb.org/documentation/api?language=en-US](https://www.themoviedb.org/documentation/api?language=en-US) 
 
 - Has movie, cast, plot
 
 - API free to use for non-commercial use
 
-## BizVibe 
+### BizVibe 
 [https://blog.bizvibe.com/blog/top-movie-production-companies](https://blog.bizvibe.com/blog/top-movie-production-companies) 
 
 Studios and box office successes
 
-## Statista 
+### Statista 
 [https://www.statista.com/statistics/187193/box-office-gross-of-film-studios-in-north-america-2010/](https://www.statista.com/statistics/187193/box-office-gross-of-film-studios-in-north-america-2010/) 
 
 ## The Black List 
 [https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/](https://deadline.com/2021/12/the-black-list-2021-screenplays-list-scripts-1234890009/) and [https://blcklst.com](https://blcklst.com)  
 
 
-## Other datasets
+### Other datasets
 
 - Netflix
 
@@ -276,35 +276,34 @@ Studios and box office successes
 
 Movie must have:
 
-	Title (many)
+- Title (many)
 
-	Genre (many)
+- Genre (many)
 
-	hasBoxOffice (exactly one)
+- hasBoxOffice (exactly one)
 
-	hasBudget (exactly one) more than $0.5m
+- hasBudget (exactly one) more than $0.5m
 
-	hasPlot (many)
+- hasPlot (many)
 
 Person must have:
 
-	Name
+- Name
 
-	Role
+- Role
 
 Proposal must have:
 
-	Budget
+- Budget
 
-	Team
+- Team
 
-	Status
+- Status
 
 
 ## Derivations
 
-	_Size of principal cas_t derived from count (AboveTheLineStaff)
-
+Size of _principal cast_ derived from count (AboveTheLineStaff)
 
 ## Ontologies
 
@@ -397,29 +396,4 @@ Per genre per actor find the average IMDB score in movies of that genre
 We will ignore the Movie Lab detailed tech ontologies with details such as 'camera capabilities' since this is not relevant for the use case regarding movie green lighting.
 
 
-## Actions
 
-- Flesh out vocabularies in spreadsheet
-
-- Flesh out ontology and link to vocabulary
-
-- Provision for an online KG
-
-- Load ontology and vocabularies
-
-- Describe dataset using both 
-
-
-    informal doc 
-
-
-    and DCAT
-
-
-    Flesh out rules in document
-
-
-    and as SHACL shapes
-
-
-    Use APIs to load data
