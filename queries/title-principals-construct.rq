@@ -1,0 +1,21 @@
+PREFIX mov: <https://ekgf.org/ontology/movies/>
+PREFIX movdata: <https://ekgf.org/data/movies/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?roluri a mov:TeamRole ;
+    rdfs:label ?category ;
+    mov:participatesIn ?movuri ;
+    mov:filledBy ?personuri ;
+    mov:hasPosition ?posuri .
+  ?posuri a mov:Position ;  # will be repeated
+    rdfs:label ?category.
+    
+}
+WHERE {
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/person_", ?nconst)) AS ?personuri)
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/movie_", ?tconst)) AS ?movuri)
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/pos_", ?category)) AS ?posuri)
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/rol_", ?tconst, "_", ?category, "_", ?nconst)) AS ?roluri)
+} 

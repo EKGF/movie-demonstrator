@@ -1,0 +1,18 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+select ?type (count(?mv) as ?mvc) 
+where {
+  TT <https://ekgf.org/movies/titleBasics> { ?mv ?type ?title ?adult ?year ?len ?genres} 
+  }
+group by ?type
+
+#times out
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+select  (count(*) as ?mvc) 
+where {
+  TT <https://ekgf.org/movies/titleBasics> { ?mv "movie" ?title ?adult ?year ?len ?genres} 
+  }
+# times out
+

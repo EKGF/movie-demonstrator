@@ -1,0 +1,12 @@
+PREFIX mov: <https://ekgf.org/ontology/movies/>
+PREFIX movdata: <https://ekgf.org/data/movies/>
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+CONSTRUCT {
+  ?uri a mov:Person ;
+    rdfs:label ?primaryName .
+}
+WHERE {
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/person_", ?nconst)) AS ?uri)
+} 

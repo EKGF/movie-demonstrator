@@ -1,0 +1,25 @@
+PREFIX mov: <https://ekgf.org/ontology/movies/>
+PREFIX movdata: <https://ekgf.org/data/movies/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?movuri a mov:Movie ;
+    rdfs:label ?primaryTitle ;
+    mov:hasReleaseDate ?startYear ;
+    mov:hasRuntime ?runtimeMinutes .     
+}
+WHERE {
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/movie_", ?tconst)) AS ?movuri)
+} 
+
+CONSTRUCT {
+  ?movuri 
+    mov:hasGenre ?genre .     
+}
+WHERE {
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/movie_", ?tconst)) AS ?movuri)  
+  ?genre apf:strSplit (?genres ",")
+  BIND ( URI(CONCAT("https://ekgf.org/data/movies/genre_", ?genre)) AS ?genuri)
+} 
+

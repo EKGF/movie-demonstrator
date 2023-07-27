@@ -1,0 +1,19 @@
+PREFIX mov: <https://ekgf.org/ontology/movies/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+# Match budget dataset with IMDB dataset matching on title and date
+SELECT ?s ?matches ?bl ?bdate where {
+  {SELECT ?s (count(?m) as ?matches) where { 
+	?s mov:hasBudget ?b ;
+      rdfs:label ?bl ;
+      mov:hasReleaseDate ?bdate.
+    ?m rdfs:label ?bl ;
+       mov:hasReleaseDate ?bdate ;
+       mov:hasIMDBraters ?raters ;
+       a mov:Movie .    
+    FILTER (xsd:integer(?raters) > 4000 ) # threshold to exclude obscure movies
+        } group by ?s}
+    FILTER (?matches != 1)
+  ?s      rdfs:label ?bl ;
+      mov:hasReleaseDate ?bdate.  
+}
+    

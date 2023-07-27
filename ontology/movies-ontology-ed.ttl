@@ -1,0 +1,404 @@
+@base <https://ekgf.org/ontology/movies/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<Disney> a owl:NamedIndividual, <Studio> .
+
+<Universal> a owl:NamedIndividual, <Studio> .
+
+<Studio> a owl:Class .
+
+<Movie> a owl:Class;
+  rdfs:subClassOf <CopyrightedWork> .
+
+<Song> a owl:Class;
+  rdfs:subClassOf <CopyrightedWork> .
+
+<Jaws> a owl:NamedIndividual, <Movie> .
+
+<produces> a owl:Property;
+  rdfs:domain <Studio>;
+  rdfs:range <Movie> .
+
+<Proposal> a owl:Class .
+
+<Budget> a owl:Class .
+
+<budgetAmount> a owl:Property;
+  rdfs:domain <Budget>;
+  rdfs:range xsd:integer .
+
+<hasTeam> a owl:Property;
+  rdfs:domain <Proposal>;
+  rdfs:range <Team> .
+
+<Team> a owl:Class .
+
+<hasMember> a owl:Property;
+  rdfs:domain <Team>;
+  rdfs:range <LegalEntity> .
+
+<Person> a owl:Class;
+  rdfs:subClassOf <LegalEntity> .
+
+<hasPitchTeam> a owl:Property;
+  rdfs:subPropertyOf <hasTeam> .
+
+<Pitch> a owl:Class .
+
+<LegalEntity> a owl:Class .
+
+<Company> a owl:Class;
+  rdfs:subClassOf <LegalEntity> .
+
+<hasAnnualBudget> a owl:Property;
+  rdfs:domain <Studio>;
+  rdfs:range <Budget> .
+
+<requiresBudget> a owl:Property;
+  rdfs:domain <Proposal>;
+  rdfs:range <Budget> .
+
+<Lion_Witch_Wardrobe> a owl:NamedIndividual, <Proposal> .
+
+<Consideration> a owl:Class .
+
+<presentedToStudio> a owl:Property;
+  rdfs:domain <Consideration>;
+  rdfs:range <Studio> .
+
+<hasProposal> a owl:Property;
+  rdfs:domain <Consideration>;
+  rdfs:range <Proposal> .
+
+<hasStatus> a owl:Property;
+  rdfs:domain <Consideration>;
+  rdfs:range <Status> .
+
+<Greenlit> a owl:NamedIndividual, <Status> .
+
+<Rejected> a owl:NamedIndividual, <Status> .
+
+<UnderReview> a owl:NamedIndividual, <Status> .
+
+<Lion_Witch_Wardrobe_and_Walt_Disney> a owl:NamedIndividual, <Consideration> .
+
+<TeamRole> a owl:Class .
+
+<filledBy> a owl:Property;
+  rdfs:domain <TeamRole>;
+  rdfs:range <Person> .
+
+<participatesIn> a owl:Property;
+  rdfs:domain <TeamRole> .
+  # rdfs:range will be <TeamRole> or <Movie>.
+
+<hasPosition> a owl:Property;
+  rdfs:domain <TeamRole>;
+  rdfs:range <Position> .
+
+<Position> a owl:Class .
+
+<Director> a owl:NamedIndividual, <Position>, <AboveTheLineStaff> .
+<Cinematographer> a owl:NamedIndividual, <Position>, <AboveTheLineStaff> .
+
+<Actor> a owl:NamedIndividual, <Position> .
+
+<LeadActor> a owl:NamedIndividual, <Position>, <AboveTheLineStaff> .
+
+<SupportingActor> a owl:NamedIndividual, <Position> .
+
+<LWW-Director> a owl:NamedIndividual, <TeamRole> .
+
+<LWW-Team> a owl:NamedIndividual, <Team> .
+
+<LWW-LeadActor> a owl:NamedIndividual, <TeamRole> .
+
+<DP> a owl:NamedIndividual, <Position> .
+
+<ScreenWriter> a owl:NamedIndividual, <Position> .
+
+<LWW_Movie> a owl:NamedIndividual, <Movie> .
+
+<proposesToMake> a owl:Property;
+  rdfs:domain <Proposal>;
+  rdfs:range <Movie> .
+
+<hasGenre> a owl:Property;
+  rdfs:domain <Movie>;
+  rdfs:range <Genre> .
+
+<hasSubgenre> a owl:Property;
+  rdfs:domain <Genre>;
+  rdfs:range <Genre> .
+
+<Family> a owl:NamedIndividual, <Genre> .
+
+<Adventure> a owl:NamedIndividual, <Genre> .
+
+<Plot> a owl:Class;
+  rdfs:domain <Movie>;
+  rdfs:range <Plot> .
+
+<hasPlot> a owl:Property;
+  rdfs:domain <Movie>;
+  rdfs:range <Plot> .
+
+<hasSummary> a owl:Property;
+  rdfs:domain <Plot>;
+  rdfs:range xsd:string .
+
+<hasKeyword> a owl:Property;
+  rdfs:domain <Plot>;
+  rdfs:range xsd:string .
+
+<basedOn> a owl:Property;
+  rdfs:domain <Movie>;
+  rdfs:range <Work> .
+
+<hasAuthor> a owl:Property;
+  rdfs:domain <CopyrightedWork>;
+  rdfs:range <LegalEntity> .
+
+<Harry_Potter_Sorceror_Stone_Movie> a owl:NamedIndividual, <Movie> .
+
+<hasBoxOffice> a owl:Property;
+  rdfs:domain <Movie>;
+  rdfs:range xsd:integer .
+
+<hasRevenue> a owl:Property;
+  rdfs:domain <Movie>;
+  rdfs:range xsd:integer .
+
+<hasBudget> a owl:Property;
+  rdfs:domain <Movie>;
+  rdfs:range xsd:integer .
+
+<AboveTheLineStaff> a owl:Class .
+
+<BelowTheLineStaff> a owl:Class ;
+  owl:disjointWith <AboveTheLineStaff> .
+
+<hasReleaseDate> a owl:Property;
+  rdfs:domain <Movie>;
+  rdfs:range xsd:integer .
+
+<hasAwards> a owl:Property;
+  rdfs:domain <Movie>;
+  rdfs:range <Award>;
+  owl:inverseOf <awardedTo> .
+
+<hasNominations> a owl:Property;
+  rdfs:domain <Movie>;
+  rdfs:range <Award>;
+  owl:inverseOf <hasNominee> .
+
+<Award> a owl:Class .
+
+<hasDate> a owl:Property;
+  rdfs:domain <Award>;
+  rdfs:range xsd:integer .
+
+<hasCategory> a owl:Property;
+  rdfs:domain <Award>;
+  rdfs:range <Category> .
+
+<awardedTo> a owl:Property;
+  rdfs:domain <Award>;
+  # rdfs:range <TeamRole_or_Team_or_Movie>
+   .
+<hasNominee> a owl:Property;
+  rdfs:comment "nominee for award including eventual winner" ;
+  rdfs:domain <Award>;
+  # rdfs:range <TeamRole_or_Team_or_Movie>
+   .
+
+<Category> a owl:Class .
+
+<Oscar_for_Best_Lead_Actor> a owl:NamedIndividual, <Category> .
+
+<WillSmith2022Award> a owl:NamedIndividual, <Award> .
+
+<AgeRange> a owl:Class;
+  rdfs:comment "2-11_12-17_18-24_25-39_40-49_50-59_60+".
+
+<Demographic> a owl:Class .
+
+<hasAgeRange> rdfs:domain <Demographic>;
+  rdfs:range <AgeRange> .
+
+<hasUpperAge> rdfs:domain <AgeRange>;
+  rdfs:range xsd:integer .
+
+<hasLowerAge> rdfs:domain <AgeRange>;
+  rdfs:range xsd:integer .
+
+<hasGender> rdfs:domain <Demographic>;
+  rdfs:range <Gender> .
+
+<hasGeography> rdfs:domain <Demographic>;
+  rdfs:range <Region> .
+
+<hasEthnicity> rdfs:domain <Demographic>;
+  rdfs:range <Region> .
+
+<AgeRange-Child> a owl:NamedIndividual, <AgeRange> .
+
+<Region> a owl:Class .
+
+<contains> a owl:Property;
+  rdfs:domain <Region>;
+  rdfs:range <Region> .
+
+<EMEA> a owl:NamedIndividual, <Region> .
+
+<hasTargetDemographic> a owl:Property;
+  rdfs:domain <Movie>;
+  rdfs:range <Demographic> .
+
+<Treatment> a owl:Class .
+
+<hasTreatment> a owl:Property;
+  rdfs:domain <Proposal>;
+  rdfs:range <Treatment> .
+
+<Location> a owl:Class .
+
+<Setting> a owl:Class .
+
+<BudgetItem> a owl:Class .
+
+<hasPay> a owl:Property;
+  rdfs:domain <TeamRole>;
+  rdfs:range xsd:integer .
+
+<hasStarPower> a owl:Property;
+  rdfs:domain <Person>;
+  rdfs:range xsd:integer;
+ # rdfs:subClassOf <will_need_to_enumerate_stature>
+   .
+
+
+<isUnionProduction> a owl:Property;
+  rdfs:domain <Proposal>;
+  rdfs:range xsd:boolean.
+
+<Rating> a owl:Class .
+
+<R> a owl:NamedIndividual, <Rating> .
+
+<hasRating> a owl:Property;
+  rdfs:domain <Movie>,<Proposal>;
+  rdfs:range <Rating> .
+
+<Series> a owl:Class .
+
+<hasMovie> a owl:Property;
+  rdfs:domain <Series>;
+  rdfs:range <Movie> .
+
+<hasRuntime> rdfs:domain <Movie>;
+  rdfs:range xsd:integer .
+
+<Trend> a owl:Class .
+  # rdfs:subClassOf <described_as_text_for_now%3B_but_classify_in_the_same_way_as_movies> .
+
+<hasSentiment> a owl:Property;
+  rdfs:domain <Thing>;
+  rdfs:range xsd:integer;
+  # rdfs:subClassOf <need_to_investigate_data_sources_for_number_range_%28positive/negative%29_and_how_to_normalize>
+   .
+
+<ProductionMethod> a owl:Class .
+
+<Animation> a owl:NamedIndividual, <ProductionMethod> .
+
+<hasProductionMethod> a owl:Property;
+  rdfs:domain <Movie>;
+  rdfs:range <ProductionMethod> .
+
+<Release> a owl:Class;
+ # rdfs:subClassOf <add_properties_for_number_of_screens%2C_regions> 
+  .
+
+<Theater> a owl:Class;
+#  rdfs:subClassOf <add_properties_for_number_of_screens%2C_region>
+   .
+
+<Inflation> a owl:Class .
+
+<hasYear> a owl:Property;
+  rdfs:domain <Inflation>;
+  rdfs:range xsd:integer .
+
+<hasRate> a owl:Property;
+  rdfs:domain <Inflation>;
+  rdfs:range xsd:decimal .
+
+<LicenseAgreement> a owl:Class .
+
+<coversWork> a owl:Property;
+  rdfs:domain <LicenseAgreement>;
+  rdfs:range <CopyrightedWork> .
+
+<licensee> a owl:Property;
+  rdfs:domain <LicenseAgreement>;
+  rdfs:range <LegalEntity> .
+
+<licensor> a owl:Property;
+  rdfs:domain <LicenseAgreement>;
+  rdfs:range <LegalEntity> .
+
+<licenseTerms> a owl:Property;
+  rdfs:domain <LicenseAgreement>;
+  rdfs:range xsd:string .
+
+<licenseCost> a owl:Property;
+  rdfs:domain <LicenseAgreement>;
+  rdfs:range xsd:integer .
+
+<CopyrightedWork> a owl:Class .
+
+<ProductPlacement> a owl:Class .
+
+<product> a owl:Property;
+  rdfs:domain <ProductPlacement>;
+  rdfs:range <text> .
+
+<movie> a owl:Property;
+  rdfs:domain <ProductPlacement>;
+  rdfs:range <Movie> .
+
+<placementCost> a owl:Property;
+  rdfs:domain <ProductPlacement>;
+  rdfs:range xsd:integer .
+
+<SoundStage> a owl:Class;
+  rdfs:subClassOf <Location> .
+
+<Screenplay> a owl:Class;
+  rdfs:subClassOf <CopyrightedWork> .
+
+<OriginalScreenplay> a owl:Class;
+  rdfs:subClassOf <Screenplay> .
+
+<AdaptedScreenplay> a owl:Class;
+  rdfs:subClassOf <Screenplay> .
+
+<DeliveryMethod> a owl:Class .
+
+<Streaming> a owl:NamedIndividual, <DeliveryMethod> .
+
+<Theaters> a owl:NamedIndividual, <DeliveryMethod> .
+
+<TV> a owl:NamedIndividual, <DeliveryMethod> .
+
+<ProductionCompany> a owl:Class;
+  rdfs:subClassOf <Company> .
+
+<DistributionCompany> a owl:Class;
+  rdfs:subClassOf <Company> .
+
+<FilmFestival> a owl:Class .
+

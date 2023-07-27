@@ -1,0 +1,14 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX mov: <https://ekgf.org/movies>
+CONSTRUCT {?mv a mov:Movie ;
+          rdfs:label ?title ;
+          mov:hasReleaseDate ?year ;
+          mov:hasRuntime ?len
+          }
+
+where {
+  TT <https://ekgf.org/movies/titleBasics> { ?mv "movie" ?title ?adult ?year ?len ?genres} 
+  }
+LIMIT 10
+
